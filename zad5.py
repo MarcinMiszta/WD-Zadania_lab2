@@ -1,8 +1,8 @@
 count = 0
-for number in range(1, 1000):
+for number in range(1, 10000):
     d = []
     s = 0
-    for divider in range(1, number):
+    for divider in range(1, (number//2)+1):
         if number % divider == 0:
             d.append(divider)
     for k in range(0, len(d)):
