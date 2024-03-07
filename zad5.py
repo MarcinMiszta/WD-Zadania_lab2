@@ -1,5 +1,5 @@
 count = 0
-for number in range(1, 10000):
+for number in range(1, 1000):
     d = []
     s = 0
     for divider in range(1, (number//2)+1):
